@@ -1,0 +1,3 @@
+exporters:
+  otlphttp:
+    endpoint: "http://foo"

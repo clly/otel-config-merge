@@ -1,0 +1,3 @@
+receivers: [otlp]
+processors: []
+exporters: [otlphttp]

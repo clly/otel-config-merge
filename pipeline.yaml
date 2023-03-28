@@ -1,0 +1,7 @@
+service:
+  pipelines:
+    metrics/forwarder: ${file:partial-pipeline.yaml}
+    metrics:
+      receivers: [otlp]
+      processors: []
+      exporters: [logging]

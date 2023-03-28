@@ -1,0 +1,11 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: "http://0.0.0.0:4444"
+      http:
+        cors:
+          allowed_origins:
+            - http://foo.com
+          allowed_headers:
+            - Example

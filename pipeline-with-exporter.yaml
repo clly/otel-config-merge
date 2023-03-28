@@ -1,0 +1,6 @@
+service:
+  pipelines:
+    metrics/forwarder:
+      receivers: [otlp]
+      processors: []
+      exporters: [otlphttp]
